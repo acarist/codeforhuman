@@ -3,17 +3,18 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Tag: Test | Code For Human - Ramazan Acar</title>
+    <title>about | Code For Human - Ramazan Acar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Ramazan Acar&apos;s personal code blog made by love.">
+    <meta name="description" content="#Soon…">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Code For Human - Ramazan Acar">
-<meta property="og:url" content="http://codeforhuman.com/tags/Test/index.html">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://codeforhuman.com/about/index.html">
 <meta property="og:site_name" content="Code For Human - Ramazan Acar">
-<meta property="og:description" content="Ramazan Acar&apos;s personal code blog made by love.">
+<meta property="og:description" content="#Soon…">
+<meta property="og:updated_time" content="2016-04-25T11:31:20.045Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Code For Human - Ramazan Acar">
-<meta name="twitter:description" content="Ramazan Acar&apos;s personal code blog made by love.">
+<meta name="twitter:title" content="about">
+<meta name="twitter:description" content="#Soon…">
     
 
     
@@ -174,20 +175,16 @@
 </aside>
 
             
-            <section id="main">
-<div class="timeline timeline-wrap">
-    <div class="timeline-row timeline-row-major">
-        <span class="node"><i class="fa fa-tag"></i></span>
-        <h1 class="title">#Test</h1>
-    </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
+            <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
                 
     
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/hello-world-1/2016/04/18/">Code For Human First Post</a>
+        <h1 class="article-title" itemprop="name">
+            about
         </h1>
     
 
@@ -195,29 +192,122 @@
                     
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/hello-world-1/2016/04/18/">
-            <time datetime="2016-04-18T04:00:00.000Z" itemprop="datePublished">2016-04-18</time>
+        <a href="/about/index.html">
+            <time datetime="2016-04-25T11:30:12.000Z" itemprop="datePublished">2016-04-25</time>
         </a>
     </div>
 
 
                     
-    <div class="article-category">
-    	<i class="fa fa-folder"></i>
-        <a class="article-category-link" href="/categories/General/">General</a>
-    </div>
-
                     
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/tags/Blog/">Blog</a>, <a class="tag-link" href="/tags/Hello-World/">Hello World</a>, <a class="tag-link" href="/tags/Test/">Test</a>
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <p>#Soon…</p>
+
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://codeforhuman.com/about/index.html" data-id="cinfxf4yn0001h1bqbckk1j3i" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="/about/index.html#comments" class="article-comment-link disqus-comment-count" data-disqus-url="/about/index.html">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+
+    
+</article>
+
+
+    
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
 
-                </div>
-            </div>
-        </div>
     
-</div>
+    </section>
+
 </section>
             
                 <aside id="sidebar">
@@ -306,11 +396,13 @@
     var disqus_shortname = 'acarist';
     
     
+    var disqus_url = 'http://codeforhuman.com/about/index.html';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>

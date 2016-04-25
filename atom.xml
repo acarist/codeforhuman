@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://codeforhuman.com/"/>
-  <updated>2016-04-25T11:16:16.013Z</updated>
+  <updated>2016-04-25T11:34:15.781Z</updated>
   <id>http://codeforhuman.com/</id>
   
   <author>
@@ -20,11 +20,10 @@
     <link href="http://codeforhuman.com/hello-world-1/2016/04/18/"/>
     <id>http://codeforhuman.com/hello-world-1/2016/04/18/</id>
     <published>2016-04-18T04:00:00.000Z</published>
-    <updated>2016-04-25T11:16:16.013Z</updated>
+    <updated>2016-04-25T11:34:15.781Z</updated>
     
     <content type="html">&lt;h2 id=&quot;Good-news-everyone&quot;&gt;&lt;a href=&quot;#Good-news-everyone&quot; class=&quot;headerlink&quot; title=&quot;Good news everyone!&quot;&gt;&lt;/a&gt;Good news everyone!&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;This is our hello world!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;###What am i thinking ? &lt;/p&gt;
-&lt;p&gt;This blog will be full of my challenges on code issues. Maybe a little fun. Give it a try huh?  &lt;/p&gt;
+&lt;h3 id=&quot;What-am-i-thinking&quot;&gt;&lt;a href=&quot;#What-am-i-thinking&quot; class=&quot;headerlink&quot; title=&quot;What am i thinking ?&quot;&gt;&lt;/a&gt;What am i thinking ?&lt;/h3&gt;&lt;p&gt;This blog will be full of my challenges on code issues. Maybe a little fun. Give it a try huh?  &lt;/p&gt;
 </content>
     
     <summary type="html">
