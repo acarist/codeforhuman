@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Code For Human - Ramazan Acar</title>
+  <subtitle>Some Code for Special Humans</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://codeforhuman.com/"/>
+  <updated>2016-04-25T11:16:16.013Z</updated>
+  <id>http://codeforhuman.com/</id>
+  
+  <author>
+    <name>Ramazan Acar</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Code For Human First Post</title>
+    <link href="http://codeforhuman.com/hello-world-1/2016/04/18/"/>
+    <id>http://codeforhuman.com/hello-world-1/2016/04/18/</id>
+    <published>2016-04-18T04:00:00.000Z</published>
+    <updated>2016-04-25T11:16:16.013Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Good-news-everyone&quot;&gt;&lt;a href=&quot;#Good-news-everyone&quot; class=&quot;headerlink&quot; title=&quot;Good news everyone!&quot;&gt;&lt;/a&gt;Good news everyone!&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;This is our hello world!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;###What am i thinking ? &lt;/p&gt;
+&lt;p&gt;This blog will be full of my challenges on code issues. Maybe a little fun. Give it a try huh?  &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Good-news-everyone&quot;&gt;&lt;a href=&quot;#Good-news-everyone&quot; class=&quot;headerlink&quot; title=&quot;Good news everyone!&quot;&gt;&lt;/a&gt;Good news everyone!&lt;/h2&gt;&lt;p&gt;&lt;str
+    
+    </summary>
+    
+      <category term="General" scheme="http://codeforhuman.com/categories/General/"/>
+    
+    
+      <category term="Test" scheme="http://codeforhuman.com/tags/Test/"/>
+    
+      <category term="Blog" scheme="http://codeforhuman.com/tags/Blog/"/>
+    
+      <category term="Hello World" scheme="http://codeforhuman.com/tags/Hello-World/"/>
+    
+  </entry>
+  
+</feed>
